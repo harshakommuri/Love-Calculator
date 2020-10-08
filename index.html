@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Love Calculator</title>
+  <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+<script type="text/javascript">
+      document.write("<h1>Refresh the site to know the love percentage of your's and your crush</h1>");
+      document.write("<h6>powered by Harsha")
+    var harsha = prompt("enter your name")
+    var priya1 = prompt("enter your crush name")
+    if (priya1 === "priya") {
+      alert("This name is reserved for my Boss. so, this name is invalide. Please change your girlfriend or her name")
+    } else {
+      if (harsha.length > 0) {
+        if (priya1.length > 0) {
+
+          var n = Math.random();
+          var n = n * 100;
+          var n = Math.floor(n) + 1;
+          if (n >= 75 && n <= 90) {
+            alert("your love score is " + n + "%, you love each other like madhan love's jagan");
+          } else if (n > 90) {
+            alert("your love score is " + n + "%, you love each other like andhbhakt love's modi");
+          } else if (n>30 && n<75) {
+            alert("your love score is " + n + "%");
+          } else {
+            alert("your love score is " + n + "%, our software is saying you don't love each other.")
+          }
+
+        }
+      }
+    }
+</script>
+
+    </body>
+    </html>
